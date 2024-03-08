@@ -1,6 +1,8 @@
 Steps To Run The Test Cases:
-Clone the Project Folder In Eclipse.
+Create new Maven project
+DownLoad Files All files. 
 Go to src/test/java.
+move test files here
 Right click on EtrataAssignment.EtrataAssignment Package.
 Click on RunAs.
 Click on TestNg Test.
@@ -15,6 +17,7 @@ Open the Entrata website using the chosen WebDriver.
 Find the element containing the copyright information in the footer. You can use XPath or CSS selectors to target the specific element based on its attributes or location on the page.
 Extract the text content from the copyright element.
 Assert that the extracted text contains the expected string "Copyright © Entrata [Current Year]". You can use regular expressions or string manipulation techniques to verify that the current year is present within the copyright text.
+
 Test Case 02: Validate Property Manager Login Page Elements with Explicit Wait
 Goal: Verify that the username and password fields are present on the Login page after waiting for them to load.
 
@@ -24,6 +27,7 @@ Open the Entrata Login page using the chosen WebDriver.
 Use an explicit wait (e.g., WebDriverWait with ExpectedConditions.presenceOfElementLocated) to wait for the username field to be present on the page.
 Find the element for the username field.
 Assert that the username field is found and displayed.
+
 Test Case 03: Verify Sign In Page Title
 Goal: Verify that the title of the Entrata homepage is "Entrata Sign In".
 
@@ -32,6 +36,8 @@ Steps:
 Open the Entrata sign website using the chosen WebDriver.
 Get the actual title of the page.
 Assert that the actual title is equal to the expected title ("Entrata Sign In").
+
+
 Test Case 04: Entrata Summit Registration Page Element Verification
 Goal: To verify the presence and visibility of required elements on the Entrata Summit registration page.
 
@@ -57,11 +63,11 @@ Verify the visibility of the "Email Address" field.
 Verify the visibility of the "Mobile" field.
 Verify the visibility of the "I'm registering on behalf of this person" checkbox.
 Verify the visibility of the "Next" button.
+
 Test Case 05: Validate Presence of Watch Demo Form
 Goal: To verify that the Watch Demo form is present on the Entrata Watch Demo page.
 
 Steps:
-
 Open Entrata Watch Demo Page:
 Open a web browser (Chrome).
 Enter the URL for the Entrata Watch Demo page: https://go.entrata.com/watch-demo.html
